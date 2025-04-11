@@ -1,6 +1,8 @@
 "File to run my river simulation"
 
-from exercises.ex04.river import River
+__author__ = "730469212"
+
+from exercises.EX04.river import River
 
 sevier_river = River(10, 2)
 
