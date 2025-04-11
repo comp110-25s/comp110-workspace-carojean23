@@ -1,0 +1,7 @@
+def get_gift(budget: int) -> str:
+    if budget >= 110:
+        return "Nice dinner"
+    elif budget > 0:
+        return "A gift!"
+    else:
+        return "Quality Time"
